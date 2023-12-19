@@ -22,48 +22,49 @@ export default Controller.extend({
             link: 'i-i-s-ready2use-method-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-method-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-method-l.title'),
-            icon: 'chart line',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-ready2use-download-file-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-download-file-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-download-file-l.title'),
-            icon: 'suitcase',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-ready2use-execution-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-execution-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-execution-l.title'),
-            icon: 'edit',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-ready2use-opt-files-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-opt-files-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-opt-files-l.title'),
-            icon: 'chart bar',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-ready2use-upload-file-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-upload-file-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-upload-file-l.title'),
-            icon: 'archive',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-ready2use-value-of-size-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-value-of-size-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-value-of-size-l.title'),
-            icon: 'building',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-ready2use-no-n-opt-file-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-no-n-opt-file-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-no-n-opt-file-l.title'),
-            icon: 'book',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-ready2use-optimize-l',
             caption: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-optimize-l.caption'),
             title: i18n.t('forms.application.sitemap.ready2use.i-i-s-ready2use-optimize-l.title'),
+            icon: 'tasks',
             children: null
           }]
         }
