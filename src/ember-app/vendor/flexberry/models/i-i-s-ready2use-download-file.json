@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISReady2useDownloadFile",
+  "modelName": "i-i-s-ready2use-download-file",
+  "className": "DownloadFile",
+  "nameSpace": "IIS.Ready2use",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "pathToLoad",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "optimize",
+      "relatedTo": "i-i-s-ready2use-optimize",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "DownloadFileE",
+      "modelName": "i-i-s-ready2use-download-file",
+      "attrs": [
+        {
+          "name": "pathToLoad",
+          "caption": "Path to load",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "DownloadFileL",
+      "modelName": "i-i-s-ready2use-download-file",
+      "attrs": [
+        {
+          "name": "pathToLoad",
+          "caption": "Path to load",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Ready2use",
+  "applicationTitle": "Ready2use",
+  "items": [
+    {
+      "link": null,
+      "menuName": "ready2use",
+      "caption": "Ready2use",
+      "title": "Ready2use",
+      "children": [
+        {
+          "link": "i-i-s-ready2use-method-l",
+          "menuName": null,
+          "caption": "Method",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ready2use-download-file-l",
+          "menuName": null,
+          "caption": "Download file",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ready2use-execution-l",
+          "menuName": null,
+          "caption": "Execution",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ready2use-opt-files-l",
+          "menuName": null,
+          "caption": "Opt files",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ready2use-upload-file-l",
+          "menuName": null,
+          "caption": "Upload file",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ready2use-value-of-size-l",
+          "menuName": null,
+          "caption": "Value of size",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ready2use-no-n-opt-file-l",
+          "menuName": null,
+          "caption": "No n opt file",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ready2use-optimize-l",
+          "menuName": null,
+          "caption": "Optimize",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

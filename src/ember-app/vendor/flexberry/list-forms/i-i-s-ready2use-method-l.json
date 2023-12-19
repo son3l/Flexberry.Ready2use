@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-method-e",
+  "editForm": "i-i-s-ready2use-method-e",
+  "external": false,
+  "caption": "Method",
+  "name": "IISReady2useMethodL",
+  "className": "MethodL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-method",
+      "modelProjection": "MethodL"
+    }
+  ]
+}

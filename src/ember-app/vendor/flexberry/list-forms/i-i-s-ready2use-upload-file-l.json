@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-upload-file-e",
+  "editForm": "i-i-s-ready2use-upload-file-e",
+  "external": false,
+  "caption": "Upload file",
+  "name": "IISReady2useUploadFileL",
+  "className": "UploadFileL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-upload-file",
+      "modelProjection": "UploadFileL"
+    }
+  ]
+}

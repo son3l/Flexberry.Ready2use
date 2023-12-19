@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISReady2useUploadFile",
+  "modelName": "i-i-s-ready2use-upload-file",
+  "className": "UploadFile",
+  "nameSpace": "IIS.Ready2use",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "pathToFile",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "noNOptFile",
+      "relatedTo": "i-i-s-ready2use-no-n-opt-file",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "UploadFileE",
+      "modelName": "i-i-s-ready2use-upload-file",
+      "attrs": [
+        {
+          "name": "pathToFile",
+          "caption": "Path to file",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "UploadFileL",
+      "modelName": "i-i-s-ready2use-upload-file",
+      "attrs": [
+        {
+          "name": "pathToFile",
+          "caption": "Path to file",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

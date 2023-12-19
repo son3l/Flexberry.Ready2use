@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-opt-files-e",
+  "editForm": "i-i-s-ready2use-opt-files-e",
+  "external": false,
+  "caption": "Opt files",
+  "name": "IISReady2useOptFilesL",
+  "className": "OptFilesL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-opt-files",
+      "modelProjection": "OptFilesL"
+    }
+  ]
+}

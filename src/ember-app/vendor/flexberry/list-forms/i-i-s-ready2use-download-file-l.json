@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-download-file-e",
+  "editForm": "i-i-s-ready2use-download-file-e",
+  "external": false,
+  "caption": "Download file",
+  "name": "IISReady2useDownloadFileL",
+  "className": "DownloadFileL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-download-file",
+      "modelProjection": "DownloadFileL"
+    }
+  ]
+}

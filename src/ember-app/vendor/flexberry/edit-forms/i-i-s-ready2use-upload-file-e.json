@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Upload file",
+  "name": "IISReady2useUploadFileE",
+  "className": "UploadFileE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-upload-file",
+      "modelProjection": "UploadFileE"
+    }
+  ]
+}

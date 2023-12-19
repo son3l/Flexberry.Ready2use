@@ -1,0 +1,69 @@
+﻿{
+  "name": "IISReady2useOptimize",
+  "modelName": "i-i-s-ready2use-optimize",
+  "className": "Optimize",
+  "nameSpace": "IIS.Ready2use",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "lvlCompress",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "method",
+      "relatedTo": "i-i-s-ready2use-method",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "uploadFile",
+      "relatedTo": "i-i-s-ready2use-upload-file",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "OptimizeE",
+      "modelName": "i-i-s-ready2use-optimize",
+      "attrs": [
+        {
+          "name": "lvlCompress",
+          "caption": "Lvl compress",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "OptimizeL",
+      "modelName": "i-i-s-ready2use-optimize",
+      "attrs": [
+        {
+          "name": "lvlCompress",
+          "caption": "Lvl compress",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

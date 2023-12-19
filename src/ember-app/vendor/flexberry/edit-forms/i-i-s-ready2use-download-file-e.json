@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Download file",
+  "name": "IISReady2useDownloadFileE",
+  "className": "DownloadFileE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-download-file",
+      "modelProjection": "DownloadFileE"
+    }
+  ]
+}

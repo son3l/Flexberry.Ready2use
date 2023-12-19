@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "No n opt file",
+  "name": "IISReady2useNoNOptFileE",
+  "className": "NoNOptFileE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-no-n-opt-file",
+      "modelProjection": "NoNOptFileE"
+    }
+  ]
+}

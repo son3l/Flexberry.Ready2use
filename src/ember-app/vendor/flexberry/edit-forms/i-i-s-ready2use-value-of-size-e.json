@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Value of size",
+  "name": "IISReady2useValueOfSizeE",
+  "className": "ValueOfSizeE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-value-of-size",
+      "modelProjection": "ValueOfSizeE"
+    }
+  ]
+}

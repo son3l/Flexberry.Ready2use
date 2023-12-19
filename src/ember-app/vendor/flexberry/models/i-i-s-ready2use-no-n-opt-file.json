@@ -1,0 +1,132 @@
+﻿{
+  "name": "IISReady2useNoNOptFile",
+  "modelName": "i-i-s-ready2use-no-n-opt-file",
+  "className": "NoNOptFile",
+  "nameSpace": "IIS.Ready2use",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "date",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "repository",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "size",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "execution",
+      "relatedTo": "i-i-s-ready2use-execution",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "valueOfSize",
+      "relatedTo": "i-i-s-ready2use-value-of-size",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "NoNOptFileE",
+      "modelName": "i-i-s-ready2use-no-n-opt-file",
+      "attrs": [
+        {
+          "name": "date",
+          "caption": "Date",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "repository",
+          "caption": "Repository",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "size",
+          "caption": "Size",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "NoNOptFileL",
+      "modelName": "i-i-s-ready2use-no-n-opt-file",
+      "attrs": [
+        {
+          "name": "date",
+          "caption": "Date",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "repository",
+          "caption": "Repository",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "size",
+          "caption": "Size",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

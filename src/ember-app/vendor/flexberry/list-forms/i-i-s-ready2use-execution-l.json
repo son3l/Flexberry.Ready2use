@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-execution-e",
+  "editForm": "i-i-s-ready2use-execution-e",
+  "external": false,
+  "caption": "Execution",
+  "name": "IISReady2useExecutionL",
+  "className": "ExecutionL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-execution",
+      "modelProjection": "ExecutionL"
+    }
+  ]
+}

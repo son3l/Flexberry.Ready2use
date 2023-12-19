@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-value-of-size-e",
+  "editForm": "i-i-s-ready2use-value-of-size-e",
+  "external": false,
+  "caption": "Value of size",
+  "name": "IISReady2useValueOfSizeL",
+  "className": "ValueOfSizeL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-value-of-size",
+      "modelProjection": "ValueOfSizeL"
+    }
+  ]
+}

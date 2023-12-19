@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-no-n-opt-file-e",
+  "editForm": "i-i-s-ready2use-no-n-opt-file-e",
+  "external": false,
+  "caption": "No n opt file",
+  "name": "IISReady2useNoNOptFileL",
+  "className": "NoNOptFileL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-no-n-opt-file",
+      "modelProjection": "NoNOptFileL"
+    }
+  ]
+}

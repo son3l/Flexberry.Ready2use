@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Optimize",
+  "name": "IISReady2useOptimizeE",
+  "className": "OptimizeE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-optimize",
+      "modelProjection": "OptimizeE"
+    }
+  ]
+}

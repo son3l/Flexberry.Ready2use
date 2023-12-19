@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Execution",
+  "name": "IISReady2useExecutionE",
+  "className": "ExecutionE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-execution",
+      "modelProjection": "ExecutionE"
+    }
+  ]
+}

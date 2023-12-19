@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Method",
+  "name": "IISReady2useMethodE",
+  "className": "MethodE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-method",
+      "modelProjection": "MethodE"
+    }
+  ]
+}

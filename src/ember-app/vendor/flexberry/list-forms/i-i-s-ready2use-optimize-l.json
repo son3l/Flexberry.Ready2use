@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ready2use-optimize-e",
+  "editForm": "i-i-s-ready2use-optimize-e",
+  "external": false,
+  "caption": "Optimize",
+  "name": "IISReady2useOptimizeL",
+  "className": "OptimizeL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ready2use-optimize",
+      "modelProjection": "OptimizeL"
+    }
+  ]
+}
